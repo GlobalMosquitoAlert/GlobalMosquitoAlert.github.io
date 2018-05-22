@@ -1,2 +1,1 @@
-# GlobalMosquitoAlert.github.io
-Global Mosquito Alert Website
+# Global Mosquito Alert 
