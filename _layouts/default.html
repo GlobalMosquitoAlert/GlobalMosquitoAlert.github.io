@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ {% include head.html %}  
+  </head>
+
+  <body>
+
+{% include navbar.html %}
+
+ <main role="main">
+
+
+  <section class="jumbotron text-left">
+        <div class="container">
+          <h1 class="jumbotron-heading">{{ page.title }}</h1>
+          <p class="lead text-muted">{{ content }}</p>
+        </div>
+      </section>
+
+
+</main>
+
+
+  {% include bottom_script.html %}  
+
+  </body>
+</html>
